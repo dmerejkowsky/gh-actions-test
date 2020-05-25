@@ -1,9 +1,9 @@
-name: test4
+name: test5
 
 on:
-  - push: master
-  - pull_request
-
+  push:
+    branches: [master]
+  pull_requests:
 jobs:
   run_tests:
 
