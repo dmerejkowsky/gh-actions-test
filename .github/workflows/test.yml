@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: test
+    - name: test2
       run: echo testing
